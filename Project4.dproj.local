@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.256,=C:\Users\Fas\Documents\ett\browser\WebView2Loader.dll</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.505,C:\Users\Fas\Documents\ett\browser\WebView2Loader.dll=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.392,=C:\Users\Fas\Documents\Embarcadero\Studio\Projects\Unit7.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.865,=C:\Users\Fas\Documents\ett\Unit10.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.792,=C:\Users\Fas\Documents\ett\Unit8.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.378,=C:\Users\Fas\Documents\ett\Unit9.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.912,C:\Users\Fas\Documents\Embarcadero\Studio\Projects\Unit4.dfm=C:\Users\Fas\Documents\ett\Unit4.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.462,=C:\Users\Fas\Documents\ett\Unit2.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.176,C:\Users\Fas\Documents\Embarcadero\Studio\Projects\Project4.dproj=C:\Users\Fas\Documents\ett\Project4.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.266,C:\Users\Fas\Documents\Embarcadero\Studio\Projects\Project4.dproj=C:\Users\Fas\Documents\Embarcadero\Studio\Projects\Project4.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.015,C:\Users\Fas\Documents\Embarcadero\Studio\Projects\Unit5.dfm=C:\Users\Fas\Documents\ett\Unit5.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.442,C:\Users\Fas\Documents\Embarcadero\Studio\Projects\Unit7.pas=C:\Users\Fas\Documents\ett\Unit7.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.959,C:\Users\Fas\Documents\Embarcadero\Studio\Projects\Unit6.pas=C:\Users\Fas\Documents\ett\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.825,=C:\Users\Fas\Documents\Embarcadero\Studio\Projects\Unit6.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.552,C:\Users\Fas\Documents\ett\browser\WebView2LoaderStatic.lib=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.617,=C:\Users\Fas\Documents\ett\Unit11.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.162,=C:\Users\Fas\Documents\Embarcadero\Studio\Projects\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.015,C:\Users\Fas\Documents\Embarcadero\Studio\Projects\Unit5.pas=C:\Users\Fas\Documents\ett\Unit5.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.912,C:\Users\Fas\Documents\Embarcadero\Studio\Projects\Unit4.pas=C:\Users\Fas\Documents\ett\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.697,=C:\Users\Fas\Documents\ett\Unit12.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.217,=C:\Users\Fas\Documents\ett\Unit3.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.756,=C:\Users\Fas\Documents\Embarcadero\Studio\Projects\Unit4.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.959,C:\Users\Fas\Documents\Embarcadero\Studio\Projects\Unit6.dfm=C:\Users\Fas\Documents\ett\Unit6.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.442,C:\Users\Fas\Documents\Embarcadero\Studio\Projects\Unit7.dfm=C:\Users\Fas\Documents\ett\Unit7.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.614,=C:\Users\Fas\Documents\ett\browser\WebView2Loader.dll.lib</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.491,C:\Users\Fas\Documents\ett\browser\WebView2Loader.dll.lib=</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.250,=C:\Users\Fas\Documents\ett\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.584,=C:\Users\Fas\Documents\ett\browser\WebView2LoaderStatic.lib</Transaction>
+    <Transaction>2022.07.25 18:58:56.518,C:\Users\Fas\Documents\ett\ettMenu.dfm=C:\Users\Fas\Documents\ett\Unit4.dfm</Transaction>
+    <Transaction>2022.07.25 18:58:56.518,C:\Users\Fas\Documents\ett\ettMenu.pas=C:\Users\Fas\Documents\ett\Unit4.pas</Transaction>
+    <Transaction>2022.07.25 18:58:56.528,C:\Users\Fas\Documents\ett\Unit4.pas=C:\Users\Fas\Documents\ett\ettMenu.pas</Transaction>
+    <Transaction>2022.07.25 18:58:56.528,C:\Users\Fas\Documents\ett\Unit4.dfm=C:\Users\Fas\Documents\ett\ettMenu.dfm</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Unit1.pas"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit2.pas"/>
+    <File Path="Unit2.dfm"/>
+    <File Path="Unit3.pas"/>
+    <File Path="Unit3.dfm"/>
+    <File Path="Unit4.pas"/>
+    <File Path="Unit4.dfm"/>
+    <File Path="Unit5.pas"/>
+    <File Path="Unit5.dfm"/>
+    <File Path="Unit6.pas"/>
+    <File Path="Unit6.dfm"/>
+    <File Path="Unit7.pas"/>
+    <File Path="Unit7.dfm"/>
+    <File Path="Unit8.pas"/>
+    <File Path="Unit8.dfm"/>
+    <File Path="Unit9.pas"/>
+    <File Path="Unit9.dfm"/>
+    <File Path="Unit10.pas"/>
+    <File Path="Unit10.dfm"/>
+    <File Path="Unit11.pas"/>
+    <File Path="Unit11.dfm"/>
+    <File Path="Unit12.pas"/>
+    <File Path="Unit12.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>

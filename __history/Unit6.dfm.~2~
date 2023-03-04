@@ -1,0 +1,52 @@
+object Form6: TForm6
+  Left = 0
+  Top = 0
+  BorderStyle = bsToolWindow
+  Caption = 'StreamDJ'
+  ClientHeight = 498
+  ClientWidth = 437
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -12
+  Font.Name = 'Segoe UI'
+  Font.Style = []
+  TextHeight = 15
+  object GroupBox1: TGroupBox
+    Left = 8
+    Top = 8
+    Width = 421
+    Height = 422
+    Caption = 'Built-in Browser'
+    TabOrder = 0
+    object EdgeBrowser1: TEdgeBrowser
+      Left = 2
+      Top = 17
+      Width = 417
+      Height = 403
+      Align = alClient
+      TabOrder = 0
+      ExplicitLeft = 40
+      ExplicitTop = 48
+      ExplicitWidth = 100
+      ExplicitHeight = 41
+    end
+  end
+  object Button1: TButton
+    Left = 8
+    Top = 465
+    Width = 421
+    Height = 25
+    Caption = 'Load'
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Left = 8
+    Top = 436
+    Width = 421
+    Height = 23
+    TabOrder = 2
+    TextHint = 'Channel Name (might be different from Twitch'#39's one)'
+  end
+end

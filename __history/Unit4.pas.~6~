@@ -1,0 +1,79 @@
+unit Unit4;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls, Unit5, Unit6, Unit7, Unit1, Unit2, Unit3, Unit8;
+
+type
+  TForm4 = class(TForm)
+    GroupBox1: TGroupBox;
+    Button1: TButton;
+    Button2: TButton;
+    Button3: TButton;
+    Button4: TButton;
+    Button5: TButton;
+    Button6: TButton;
+    Button7: TButton;
+    Button8: TButton;
+    Button9: TButton;
+    Button10: TButton;
+    Button11: TButton;
+    Button12: TButton;
+    procedure Button1Click(Sender: TObject);
+    procedure Button2Click(Sender: TObject);
+    procedure Button3Click(Sender: TObject);
+    procedure Button9Click(Sender: TObject);
+    procedure Button4Click(Sender: TObject);
+    procedure Button11Click(Sender: TObject);
+    procedure Button5Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form4: TForm4;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm4.Button11Click(Sender: TObject);
+begin
+  Form3.Visible := true; // Twitch page
+end;
+
+procedure TForm4.Button1Click(Sender: TObject);
+begin
+  Form5.Visible := true;
+end;
+
+procedure TForm4.Button2Click(Sender: TObject);
+begin
+  Form6.Visible := true;
+end;
+
+procedure TForm4.Button3Click(Sender: TObject);
+begin
+   Form7.Visible := true; // Chat page
+end;
+
+procedure TForm4.Button4Click(Sender: TObject);
+begin
+  Form2.Visible := true; // Bans page
+end;
+
+procedure TForm4.Button5Click(Sender: TObject);
+begin
+  Form8.Visible := true; // Emotes page
+end;
+
+procedure TForm4.Button9Click(Sender: TObject);
+begin
+  Form1.Visible := true; // About page
+end;
+
+end.

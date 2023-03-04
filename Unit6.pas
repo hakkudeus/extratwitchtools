@@ -1,0 +1,51 @@
+unit Unit6;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Winapi.WebView2,
+  Winapi.ActiveX, Vcl.Edge, Vcl.OleCtrls, SHDocVw, Vcl.ExtCtrls;
+
+type
+  TForm6 = class(TForm)
+    GroupBox1: TGroupBox;
+    Button1: TButton;
+    Edit1: TEdit;
+    EdgeBrowser1: TEdgeBrowser;
+    Panel1: TPanel;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    procedure Button1Click(Sender: TObject);
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form6: TForm6;
+  sdjchan: string;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm6.Button1Click(Sender: TObject);
+begin
+  sdjchan := Edit1.Text;
+  Panel1.Visible := false;
+  if sdjchan = '' then sdjchan := 'twitch';
+  EdgeBrowser1.Navigate('https://streamdj.app/c/'+sdjchan);
+end;
+
+procedure TForm6.FormCreate(Sender: TObject);
+begin
+  Panel1.Visible := true;
+end;
+
+end.

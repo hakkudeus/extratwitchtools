@@ -1,0 +1,41 @@
+unit Unit7;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.OleCtrls, SHDocVw,
+  Winapi.WebView2, Winapi.ActiveX, Vcl.Edge;
+
+type
+  TForm7 = class(TForm)
+    GroupBox1: TGroupBox;
+    GroupBox2: TGroupBox;
+    GroupBox3: TGroupBox;
+    Edit1: TEdit;
+    Button1: TButton;
+    RadioButton1: TRadioButton;
+    RadioButton2: TRadioButton;
+    EdgeBrowser: TEdgeBrowser;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form7: TForm7;
+  chatchan: string;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm7.Button1Click(Sender: TObject);
+begin
+  chatchan := Edit1.Text;
+  EdgeBrowser.Navigate('https://www.twitch.tv/popout/'+chatchan+'/chat');
+end;
+
+end.
