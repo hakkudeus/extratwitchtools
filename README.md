@@ -7,4 +7,4 @@ It was updated only once, the next day, adding social links :D
 Then I released Android version and have already made a ton of updates, until Fall 2021 when I retired this project.
 
 This code belongs to May 2022 unreleased Windows version that should have become an update, but instead became an infinite WIP project.
-AND It actually doesn't work because of Edge API that doesn't work for some reason. 
+AND It's actually not working because of Edge API, I'm pretty sure.
